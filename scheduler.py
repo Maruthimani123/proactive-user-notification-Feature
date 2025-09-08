@@ -81,7 +81,7 @@ def job():
     driver.quit()
 job()
 # Schedule the job to run every 3 hours
-schedule.every(3).hours.do(job)
+schedule.every(3).hours.do(job) #it is for testing purpose
 
 
 
